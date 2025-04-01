@@ -152,7 +152,7 @@ nav {
 } 
 
 #site_content { 
-  width: 950px;
+  width: 1050px;
   overflow: hidden;
   margin: 4px auto 0 auto;
   padding: 0;
@@ -166,6 +166,7 @@ nav {
   width: 294px;
   padding: 0;
   height: 312px;
+  margin: 50px 20px 0 20px;
 }
 
 #content { 
