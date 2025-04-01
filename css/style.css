@@ -127,9 +127,9 @@ header {
 }
 
 #logo h1 { 
-  font: normal 230% 'News Cycle', arial, sans-serif;
+  font: normal 250% 'News Cycle', arial, sans-serif;
   padding: 57px 0 0 17px;
-  color: black; /* Changed color to blue */
+  color: #000; /* Changed color to blue */
   font-weight: bold; /* Made the text bold */
   letter-spacing: -2px;
 }
