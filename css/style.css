@@ -123,18 +123,19 @@ header {
   float: left;
   height: 100px;
   background: transparent;
-  padding: 0 0 10px 10px;
+  padding: 30px 0 10px 10px;
 }
 
 #logo h1 { 
   font: normal 230% 'News Cycle', arial, sans-serif;
   padding: 37px 0 0 17px;
-  color: #222;
+  color: #0000FF; /* Changed color to blue */
+  font-weight: bold; /* Made the text bold */
   letter-spacing: -2px;
 }
 
 #logo h1 a { 
-  color: #999;
+  color: #0000FF;
   text-decoration: none;
 }
 
