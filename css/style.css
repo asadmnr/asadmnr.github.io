@@ -152,7 +152,7 @@ nav {
 } 
 
 #site_content { 
-  width: 1050px;
+  width: 950px;
   overflow: hidden;
   margin: 4px auto 0 auto;
   padding: 0;
@@ -166,12 +166,12 @@ nav {
   width: 294px;
   padding: 0;
   height: 312px;
-  margin: 50px 20px 0 20px;
+  margin: 20px 20px 20px 20px;
 }
 
 #content { 
   text-align: justify;
-  width: 444px;
+  width: 100%;
   padding: 0 0 5px 30px;
   margin: 0;
   float: left;
