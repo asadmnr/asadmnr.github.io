@@ -163,9 +163,9 @@ nav {
 
 #sidebar_container { 
   float: left;
-  width: 450px;
+  width: 294px;
   padding: 0;
-  height: 450px;
+  height: 312px;
 }
 
 #content { 
@@ -243,6 +243,22 @@ footer a, footer a:hover {
 footer a:hover { 
   color: #FFF;
   text-decoration: underline;
+}
+
+#footer_social_links {
+  display: flex;
+  justify-content: center;  /* Center icons horizontally */
+  gap: 40px;  /* Increase gap between the icons */
+  padding: 0;
+  margin-top: 10px;
+}
+
+#footer_social_links a {
+  color: #222; /* Icon color */
+}
+
+#footer_social_links a:hover {
+  color: #FFF; /* Icon color on hover */
 }
 
 /* form styling */
