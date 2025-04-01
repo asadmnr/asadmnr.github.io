@@ -174,9 +174,9 @@ nav {
   text-align: justify;
   width: 500px;
   padding: 40px 0 5px 30px;
-  margin: 0 auto;
+  margin: 0;
   font-size: 1.5em
-  float: none;
+  float: left;
 }
 
 #content ul { 
