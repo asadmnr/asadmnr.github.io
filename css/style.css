@@ -206,16 +206,6 @@ nav {
   padding: 2px 0 2px 28px;
   line-height: 1.5em;
 }
-@media screen and (max-width: 960px) {
-  #site_content {
-    flex-direction: column;
-    align-items: center;
-  }
-  #sidebar_container, #content {
-    width: 100%; /* Stack both sections in one column */
-    padding: 20px;
-  }
-}
 
 #blog_container h4 {
   font: normal 170% 'News Cycle', arial, sans-serif;
