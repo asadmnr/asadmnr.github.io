@@ -165,9 +165,14 @@ nav {
 #sidebar_container { 
   float: left;
   width: 294px;
+  height: auto;
   padding: 0;
-  height: 312px;
   margin: 20px 20px 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+.gallery {
+  margin-bottom: 10px; /* Adds spacing between the two images */
 }
 
 #content { 
