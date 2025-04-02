@@ -181,7 +181,7 @@ nav {
 
 #content { 
   text-align: justify;
-  width: 596px; /* 950px - (294px + margins) */
+  width: 500px; /* 950px - (294px + margins) */
   padding: 30px 0 5px 30px;
   /*margin: 0;*/
   font-size: 1.1em;
