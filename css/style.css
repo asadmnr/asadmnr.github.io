@@ -160,6 +160,9 @@ nav {
   background: #eee;
   border-top: 0;
   border-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 } 
 
 #sidebar_container { 
@@ -170,6 +173,7 @@ nav {
   margin: 20px 20px 20px 20px;
   display: flex;
   flex-direction: column;
+  flex-shrink: 0; /* Prevent it from shrinking */
 }
 .gallery {
   margin-bottom: 40px; /* Adds spacing between the two images */
@@ -177,11 +181,16 @@ nav {
 
 #content { 
   text-align: justify;
-  width: 500px;
+  width: calc(100% - 354px);;
   padding: 30px 0 5px 30px;
   margin: 0;
   font-size: 1.1em;
   float: left;
+}
+#content::before {
+  content: "";
+  display: block;
+  width: 100%;
 }
 
 #content ul { 
@@ -194,6 +203,16 @@ nav {
   margin: 0 0 0 0; 
   padding: 2px 0 2px 28px;
   line-height: 1.5em;
+}
+@media screen and (max-width: 960px) {
+  #site_content {
+    flex-direction: column;
+    align-items: center;
+  }
+  #sidebar_container, #content {
+    width: 100%; /* Stack both sections in one column */
+    padding: 20px;
+  }
 }
 
 #blog_container h4 {
