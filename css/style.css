@@ -187,11 +187,6 @@ nav {
   font-size: 1.1em;
   float: left;
 }
-#content::before {
-  content: "";
-  display: block;
-  width: 100%;
-}
 
 /* Make content full width after images */
 .full-width {
