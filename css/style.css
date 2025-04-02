@@ -181,7 +181,7 @@ nav {
 
 #content { 
   text-align: justify;
-  width: calc(100% - 354px);;
+  width: 596px; /* 950px - (294px + margins) */
   padding: 30px 0 5px 30px;
   margin: 0;
   font-size: 1.1em;
@@ -192,6 +192,13 @@ nav {
   display: block;
   width: 100%;
 }
+
+/* Make content full width after images */
+.full-width {
+  width: 950px; /* Make it occupy full width */
+  padding: 20px;
+}
+
 
 #content ul { 
   margin: 2px 0 5px 0px;
