@@ -167,12 +167,12 @@ nav {
   width: 294px;
   height: auto;
   padding: 0;
-  margin: 20px 20px 20px 0;
+  margin: 20px 20px 20px 20px;
   display: flex;
   flex-direction: column;
 }
 .gallery {
-  margin-bottom: 60px; /* Adds spacing between the two images */
+  margin-bottom: 40px; /* Adds spacing between the two images */
 }
 #sidebar_container::after {
   content: "";
@@ -184,7 +184,7 @@ nav {
 #content { 
   text-align: justify;
   width: 500px;
-  padding: 30px 0 5px 10px;
+  padding: 30px 0 5px 20px;
   margin: 0;
   font-size: 1.1em;
   float: left;
