@@ -186,7 +186,7 @@ nav {
 
 /* Make content full width after images */
 .full-width {
-  width: 950px; /* Make it occupy full width */
+  width: 850px; /* Make it occupy full width */
   padding: 0;
   font-size: 1.1em;
   margin: 0 auto 0 auto; /* Reduce top margin */
