@@ -172,7 +172,7 @@ nav {
   flex-direction: column;
 }
 .gallery {
-  margin-bottom: 40px; /* Adds spacing between the two images */
+  margin-bottom: 10px; /* Adds spacing between the two images */
 }
 #sidebar_container::after {
   content: "";
