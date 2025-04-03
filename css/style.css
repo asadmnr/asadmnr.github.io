@@ -160,6 +160,9 @@ nav {
   background: #eee;
   border-top: 0;
   border-bottom: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
 } 
 
 #sidebar_container { 
