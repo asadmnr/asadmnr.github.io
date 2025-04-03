@@ -174,6 +174,12 @@ nav {
 .gallery {
   margin-bottom: 60px; /* Adds spacing between the two images */
 }
+#sidebar_container::after {
+  content: "";
+  display: block;
+  clear: both;
+  margin-bottom: -30px; /* Pulls the next section up */
+}
 
 #content { 
   text-align: justify;
