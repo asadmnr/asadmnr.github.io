@@ -192,9 +192,7 @@ nav {
   margin: 0 auto 0 auto; /* Reduce top margin */
   clear: both; /* Ensures full-width text starts after the two-column section */
 }
-#content p:last-child {
-  margin-bottom: 5px; /* Reduce space before full-width text */
-}
+
 
 #content ul { 
   margin: 2px 0 5px 0px;
