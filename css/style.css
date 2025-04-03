@@ -212,6 +212,7 @@ nav {
 
 #pdf_viewer {
     width: 850px;
+    margin: 0 0 50px 50px;
     text-align: center;
 }
 
