@@ -198,7 +198,6 @@ nav {
   margin: 5px 20px 86px 20px; /* Reduce top margin */
 }
 
-
 #content ul { 
   margin: 2px 0 5px 0px;
 }
@@ -209,6 +208,17 @@ nav {
   margin: 0 0 0 0; 
   padding: 2px 0 2px 28px;
   line-height: 1.5em;
+}
+
+#pdf_viewer {
+    width: 850px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+#pdf_viewer iframe {
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 #blog_container h4 {
