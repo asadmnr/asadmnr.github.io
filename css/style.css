@@ -195,7 +195,7 @@ nav {
   width: 844px; /* Make it occupy full width */
   padding: 0;
   font-size: 1.1em;
-  margin: 5px 20px 86px 20px; /* Reduce top margin */
+  margin: 5px auto 86px auto; /* Reduce top margin */
 }
 
 #content ul { 
