@@ -167,12 +167,12 @@ nav {
   width: 294px;
   height: auto;
   padding: 0;
-  margin: 20px 20px 20px 20px;
+  margin: 20px 20px 20px 0;
   display: flex;
   flex-direction: column;
 }
 .gallery {
-  margin-bottom: 40px; /* Adds spacing between the two images */
+  margin-bottom: 60px; /* Adds spacing between the two images */
 }
 
 #content { 
@@ -189,7 +189,7 @@ nav {
   width: 950px; /* Make it occupy full width */
   padding: 0;
   font-size: 1.1em;
-  margin: 10px auto 0 auto; /* Reduce top margin */
+  margin: 0 auto 0 auto; /* Reduce top margin */
   clear: both; /* Ensures full-width text starts after the two-column section */
 }
 
