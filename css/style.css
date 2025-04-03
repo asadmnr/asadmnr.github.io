@@ -173,6 +173,7 @@ nav {
   margin: 20px 20px 20px 20px;
   display: flex;
   flex-direction: column;
+  flex-shrink: 0;
 }
 .gallery {
   margin-bottom: 40px; /* Adds spacing between the two images */
