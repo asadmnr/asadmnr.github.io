@@ -211,12 +211,14 @@ nav {
 }
 
 #pdf_viewer {
-    width: 850px;
-    margin: 0 50px 0 50px;
+    width: 850px;  /* Set the width of the PDF viewer */
+    margin: 20px auto;  /* Centers the div horizontally */
     text-align: center;
 }
 
 #pdf_viewer iframe {
+    width: 100%;  /* Make the iframe take the full width of the container */
+    height: 600px;  /* Adjust height as needed */
     border: 1px solid #ccc;
     border-radius: 5px;
 }
