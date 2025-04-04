@@ -72,6 +72,18 @@
   <div class="footer">
     <p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="contact.html">Contact</a></p>
   </div>
-
+<script>
+  document.querySelector("form").addEventListener("submit", function (e) {
+    const inputs = document.querySelectorAll("input[required], textarea[required]");
+    for (let input of inputs) {
+      if (!input.value.trim()) {
+        alert("Please fill out all the fields before submitting.");
+        input.focus();
+        e.preventDefault();
+        return false;
+      }
+    }
+  });
+</script>
 </body>
 </html>
