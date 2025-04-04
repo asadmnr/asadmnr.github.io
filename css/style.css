@@ -232,7 +232,46 @@ nav {
   margin-bottom: 8px;
   line-height: 1.5em;
 }
+.news-section2 {
+  width: 950px;
+  margin: 0 auto;
+  padding: 30px 0;
+}
 
+.news-box {
+  background-color: #f9f9f9;
+  border-left: 6px solid #0077cc;
+  padding: 20px 30px;
+  font-size: 18px;
+  font-style: italic;
+  font-family: 'Segoe UI', sans-serif;
+  position: relative;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.news-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.news-slide {
+  display: none;
+  animation: fadeIn 1s ease-in-out;
+}
+
+.news-slide.active {
+  display: block;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
 #pdf_viewer {
     width: 850px;  /* Set the width of the PDF viewer */
     margin: 20px auto;  /* Centers the div horizontally */
