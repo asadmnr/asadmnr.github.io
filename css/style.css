@@ -209,6 +209,29 @@ nav {
   padding: 2px 0 2px 28px;
   line-height: 1.5em;
 }
+#news_section {
+  width: 844px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-left: 4px solid #000088;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#news_section h2 {
+  margin-bottom: 10px;
+  color: #000088;
+}
+
+#news_section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#news_section li {
+  margin-bottom: 8px;
+  line-height: 1.5em;
+}
 
 #pdf_viewer {
     width: 850px;  /* Set the width of the PDF viewer */
