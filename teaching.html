@@ -1,4 +1,4 @@
-earch<!DOCTYPE HTML>
+<!DOCTYPE HTML>
 <html>
 
 <head>
@@ -15,7 +15,9 @@ earch<!DOCTYPE HTML>
 <body>
   <div id="main">
     <header>
-      <div id="logo"><h1><a href="index.html">Asad Munir</a></h1></div>
+      <div id="logo">
+        <h1><a href="index.html">Asad Munir</a></h1>
+      </div>
       <nav>
         <ul class="lavaLampWithImage" id="lava_menu">
           <li><a href="about.html">About</a></li>
@@ -27,13 +29,14 @@ earch<!DOCTYPE HTML>
         </ul>
       </nav>
     </header>
+
     <div id="site_content">
       <div id="sidebar_container">
         <div class="gallery">
-            <img width="294" height="312" src="images/B7EC3DA8-4438-4120-928E-F3FDF3CD65C7_1_201_a.jpeg" alt="photo_one" /></li>
+          <img width="294" height="312" src="images/B7EC3DA8-4438-4120-928E-F3FDF3CD65C7_1_201_a.jpeg" alt="photo_one" />
         </div>
         <div class="gallery">
-            <ul class="images">
+          <ul class="images">
             <li class="show"><img width="294" height="312" src="images/ut.png" alt="photo_one" /></li>
             <li><img width="294" height="312" src="images/hm.png" alt="photo_two" /></li>
             <li><img width="294" height="312" src="images/silo.png" alt="photo_three" /></li>
@@ -43,11 +46,11 @@ earch<!DOCTYPE HTML>
           </ul>
         </div>
       </div>
-      
+
       <div id="content">
-        <p> During my career, I have taught several courses and conducted labs for undergraduate and graduate students. Following is the list of courses and labs: </p>
-        <p> Undergraduate Courses and labs at <a href="https://giki.edu.pk">GIK Institute</a> in Pakistan and Graduate course and Lab at <a href="https://neweng.cau.ac.kr/index.do">Chung Ang University</a> in South Korea as a Teaching Assistant </p>
-        
+        <p>During my career, I have taught several courses and conducted labs for undergraduate and graduate students. Following is the list of courses and labs:</p>
+        <p>Undergraduate Courses and labs at <a href="https://giki.edu.pk">GIK Institute</a> in Pakistan and Graduate course and Lab at <a href="https://neweng.cau.ac.kr/index.do">Chung Ang University</a> in South Korea as a Teaching Assistant</p>
+
         <div style="display: flex; gap: 40px;">
           <div style="flex: 1;">
             <p><b>Undergraduate Courses</b></p>
@@ -56,11 +59,11 @@ earch<!DOCTYPE HTML>
               <li>Microprocessors</li>
               <li>Logic Design</li>
               <li>Circuit Analysis</li>
-              </ul>
+            </ul>
             <p><b>Graduate Courses</b></p>
             <ul>
               <li>Image Processing</li>
-              </ul>
+            </ul>
           </div>
           <div style="flex: 1;">
             <p><b>Labs</b></p>
@@ -74,44 +77,56 @@ earch<!DOCTYPE HTML>
               <li>Image Processing (Masters)</li>
             </ul>
           </div>
-      </div>
-    </div>
+        </div>
+      </div> <!-- end of #content -->
+    </div> <!-- end of #site_content -->
+
     <footer>
-      <p><a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="research.html">Research</a> | <a href="teaching.html">Teaching</a> | <a href="projects.html">Projects</a> | <a href="blog.html">Blog</a> | <a href="contact.html">Contact</a></p>
+      <p>
+        <a href="index.html">Home</a> |
+        <a href="about.html">About</a> |
+        <a href="research.html">Research</a> |
+        <a href="teaching.html">Teaching</a> |
+        <a href="projects.html">Projects</a> |
+        <a href="blog.html">Blog</a> |
+        <a href="contact.html">Contact</a>
+      </p>
       <div id="footer_social_links">
         <!-- Email -->
         <a href="mailto:asad.munir@ut.ee" target="_blank" title="Email">
-            <i class="fa-solid fa-envelope fa-2x"></i>
+          <i class="fa-solid fa-envelope fa-2x"></i>
         </a>
 
         <!-- Google Scholar -->
         <a href="https://scholar.google.com/citations?user=fJbql60AAAAJ&hl" target="_blank" title="Google Scholar">
-            <i class="fa-brands fa-google fa-2x"></i>        </a>
+          <i class="fa-brands fa-google fa-2x"></i>
+        </a>
 
         <!-- LinkedIn -->
         <a href="https://www.linkedin.com/in/asad-munir-4309363b" target="_blank" title="LinkedIn">
-            <i class="fa-brands fa-linkedin fa-2x"></i>
+          <i class="fa-brands fa-linkedin fa-2x"></i>
         </a>
 
         <!-- ResearchGate -->
         <a href="https://www.researchgate.net/profile/YOUR_PROFILE" target="_blank" title="ResearchGate">
-            <i class="fa-brands fa-researchgate fa-2x"></i>
+          <i class="fa-brands fa-researchgate fa-2x"></i>
         </a>
 
         <!-- GitHub -->
         <a href="https://github.com/asadmnr" target="_blank" title="GitHub">
-            <i class="fa-brands fa-github fa-2x"></i>
+          <i class="fa-brands fa-github fa-2x"></i>
         </a>
-    </div>
+      </div>
     </footer>
-  </div>
+  </div> <!-- end of #main -->
+
   <!-- javascript at the bottom for fast page loading -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.easing.min.js"></script>
   <script type="text/javascript" src="js/jquery.lavalamp.min.js"></script>
   <script type="text/javascript" src="js/image_fade.js"></script>
   <script type="text/javascript">
-    $(function() {
+    $(function () {
       $("#lava_menu").lavaLamp({
         fx: "backout",
         speed: 700
@@ -119,4 +134,5 @@ earch<!DOCTYPE HTML>
     });
   </script>
 </body>
+
 </html>
